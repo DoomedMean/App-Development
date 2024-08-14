@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App.View.DetailPage"
+             Title="DetailPage">
+    <ScrollView>
+        <Grid RowDefinitions="*,*">
+            <Image Source="ramen.jpeg" Aspect="AspectFill"/>
+            <VerticalStackLayout Grid.Row="1" Margin="10">
+                <Label Text="Ramen" FontSize="Title" FontAttributes="Bold"/>
+                <HorizontalStackLayout Spacing="30">
+                    <Label Text="Price: $250 NTD" FontSize="Subtitle"/>
+                    <Label Text="Shop: John" FontSize="Subtitle"/>
+                </HorizontalStackLayout>
+                <Label Text="Description" Margin="0,20,0,0"/>
+                <Label Margin="0,10,0,0"
+                Text="Indulge in the delicious taste of our authentic Japanese ramen, crafted with the finest ingredients and top-notch quality. Each bowl is meticulously prepared to bring you the rich and satisfying flavors that Japan is celebrated for. Our ramen features a rich and flavorful broth, slow-cooked for hours to blend chicken, pork bones, and secret spices, creating a deep, savory taste. We use only the freshest noodles, tender meats, and crisp vegetables to ensure that every bite is a delight. You can customize your ramen experience with a variety of toppings such as soft-boiled eggs, nori, and bamboo shoots. The perfect balance of umami, richness, and spice makes our ramen a truly satisfying meal, ideal for any time of day. Experience the warmth and comfort of a steaming bowl of ramen, made just for you, and discover why our ramen will leave you craving more."/>
+                <Button Text="Buy" Clicked="Buy_Clicked"/>
+            </VerticalStackLayout>
+        </Grid>
+    </ScrollView>
+
+</ContentPage>

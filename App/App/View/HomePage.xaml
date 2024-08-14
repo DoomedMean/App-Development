@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App.View.HomePage"
+             Title="Home">
+    <Grid RowDefinitions="Auto, *" Margin="5" RowSpacing="10">
+        <Entry Placeholder="Search" Completed="Search_Completed"/>
+        <ScrollView Grid.Row="1" VerticalOptions="StartAndExpand" Margin="10,10,0,0">
+            <Grid RowDefinitions="*,*,*,*,*,*,*,*,*,*" RowSpacing="20" >
+
+                <Grid ColumnDefinitions="3*, 7*" ColumnSpacing="20">
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                    </Grid.GestureRecognizers>
+                    <Image Source="ramen.jpeg"/>
+                    <VerticalStackLayout Grid.Column="1">
+                        <Label Text="Ramen" FontAttributes="Bold" FontSize="Large"/>
+                        <Label Text="Rating : 4.3 of 5" FontSize="Medium"/>
+                        <Label Text="Price : $250 NTD" FontSize="Medium"/>
+                    </VerticalStackLayout>
+                </Grid>
+
+                <Grid Grid.Row="1" ColumnDefinitions="3*, 7*" ColumnSpacing="20">
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                    </Grid.GestureRecognizers>
+                    <Image Source="fried_rice.jpeg"/>
+                    <VerticalStackLayout Grid.Column="1">
+                        <Label Text="Fried Rice" FontAttributes="Bold" FontSize="Large"/>
+                        <Label Text="Rating : 3.8 of 5" FontSize="Medium"/>
+                        <Label Text="Price : $100 NTD" FontSize="Medium"/>
+                    </VerticalStackLayout>
+                </Grid>
+
+                <Grid Grid.Row="2" ColumnDefinitions="3*, 7*" ColumnSpacing="20">
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                    </Grid.GestureRecognizers>
+                    <Image Source="toy.jpeg"/>
+                    <VerticalStackLayout Grid.Column="1">
+                        <Label Text="Toy" FontAttributes="Bold" FontSize="Large"/>
+                        <Label Text="Rating : 3.2 of 5" FontSize="Medium"/>
+                        <Label Text="Price : $350 NTD" FontSize="Medium"/>
+                    </VerticalStackLayout>
+                </Grid>
+
+                <Grid Grid.Row="3" ColumnDefinitions="3*, 7*" ColumnSpacing="20">
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                    </Grid.GestureRecognizers>
+                    <Image Source="computer.jpg"/>
+                    <VerticalStackLayout Grid.Column="1">
+                        <Label Text="Computer" FontAttributes="Bold" FontSize="Large"/>
+                        <Label Text="Rating : 4.3 of 5" FontSize="Medium"/>
+                        <Label Text="Price : $15000 NTD" FontSize="Medium"/>
+                    </VerticalStackLayout>
+                </Grid>
+
+
+                <Grid Grid.Row="4" ColumnDefinitions="3*, 7*" ColumnSpacing="20">
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                    </Grid.GestureRecognizers>
+                    <Image Source="stationery.jpeg"/>
+                    <VerticalStackLayout Grid.Column="1">
+                        <Label Text="Stationery" FontAttributes="Bold" FontSize="Large"/>
+                        <Label Text="Rating : 1.3 of 5" FontSize="Medium"/>
+                        <Label Text="Price : $10-200 NTD" FontSize="Medium"/>
+                    </VerticalStackLayout>
+                </Grid>
+
+                <Grid Grid.Row="5" ColumnDefinitions="3*, 7*" ColumnSpacing="20">
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                    </Grid.GestureRecognizers>
+                    <Image Source="drink.jpeg"/>
+                    <VerticalStackLayout Grid.Column="1">
+                        <Label Text="Drink" FontAttributes="Bold" FontSize="Large"/>
+                        <Label Text="Rating : 1.8 of 5" FontSize="Medium"/>
+                        <Label Text="Price : $100-200 NTD" FontSize="Medium"/>
+                    </VerticalStackLayout>
+                </Grid>
+
+
+                <Grid Grid.Row="6" ColumnDefinitions="3*, 7*" ColumnSpacing="20">
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                    </Grid.GestureRecognizers>
+                    <Image Source="shoes.webp"/>
+                    <VerticalStackLayout Grid.Column="1">
+                        <Label Text="Shoes" FontAttributes="Bold" FontSize="Large"/>
+                        <Label Text="Rating : 2.1 of 5" FontSize="Medium"/>
+                        <Label Text="Price : $1000 NTD" FontSize="Medium"/>
+                    </VerticalStackLayout>
+                </Grid>
+
+
+                <Grid Grid.Row="7" ColumnDefinitions="3*, 7*" ColumnSpacing="20">
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                    </Grid.GestureRecognizers>
+                    <Image Source="nintendo_switch.jpeg"/>
+                    <VerticalStackLayout Grid.Column="1">
+                        <Label Text="Nintendo Switch" FontAttributes="Bold" FontSize="Large"/>
+                        <Label Text="Rating : 3 of 5" FontSize="Medium"/>
+                        <Label Text="Price : $13000 NTD" FontSize="Medium"/>
+                    </VerticalStackLayout>
+                </Grid>
+
+            </Grid>
+        </ScrollView>
+    </Grid>
+</ContentPage>
