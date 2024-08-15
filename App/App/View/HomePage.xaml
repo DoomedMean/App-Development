@@ -3,14 +3,36 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App.View.HomePage"
              Title="Home">
+    
+
     <Grid RowDefinitions="Auto, *" Margin="5" RowSpacing="10">
         <Entry Placeholder="Search" Completed="Search_Completed"/>
         <ScrollView Grid.Row="1" VerticalOptions="StartAndExpand" Margin="10,10,0,0">
-            <Grid RowDefinitions="*,*,*,*,*,*,*,*,*,*" RowSpacing="20" >
+
+            <CollectionView ItemsSource="{Binding Items}" SelectionMode="Single">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid ColumnDefinitions="3*, 7*" ColumnSpacing="20" Padding="0,0,0,10">
+                            <Grid.GestureRecognizers>
+                                <!--sent ID to other page by using CommandParameter-->
+                                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" CommandParameter="{Binding Id}"/>
+                            </Grid.GestureRecognizers>
+                            <Image Source="{Binding ImagePath}" MaximumHeightRequest="100" Aspect="AspectFit"/>
+                            <VerticalStackLayout Grid.Column="1">
+                                <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="Large"/>
+                                <Label Text="{Binding Rating, StringFormat='Rating: {0} of 5'}" FontSize="Medium"/>
+                                <Label Text="{Binding Price, StringFormat='Price: ${0} NTD'}" FontSize="Medium"/>
+                            </VerticalStackLayout>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!--<Grid RowDefinitions="*,*,*,*,*,*,*,*,*,*" RowSpacing="20" >
 
                 <Grid ColumnDefinitions="3*, 7*" ColumnSpacing="20">
                     <Grid.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        <TapGestureRecognizer Tapped=""/>
                     </Grid.GestureRecognizers>
                     <Image Source="ramen.jpeg"/>
                     <VerticalStackLayout Grid.Column="1">
@@ -106,8 +128,7 @@
                         <Label Text="Price : $13000 NTD" FontSize="Medium"/>
                     </VerticalStackLayout>
                 </Grid>
-
-            </Grid>
+            </Grid>-->
         </ScrollView>
     </Grid>
 </ContentPage>

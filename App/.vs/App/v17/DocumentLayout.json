@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\Project\\App Development\\App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1921C5C2-ED65-446E-AEB2-DDE014888D11}|App\\App.csproj|d:\\project\\app development\\app\\app\\view\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1921C5C2-ED65-446E-AEB2-DDE014888D11}|App\\App.csproj|solutionrelative:app\\view\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1921C5C2-ED65-446E-AEB2-DDE014888D11}|App\\App.csproj|d:\\project\\app development\\app\\app\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1921C5C2-ED65-446E-AEB2-DDE014888D11}|App\\App.csproj|solutionrelative:app\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1921C5C2-ED65-446E-AEB2-DDE014888D11}|App\\App.csproj|d:\\project\\app development\\app\\app\\view\\detailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1921C5C2-ED65-446E-AEB2-DDE014888D11}|App\\App.csproj|solutionrelative:app\\view\\detailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 193,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,15 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomePage.xaml",
-              "DocumentMoniker": "D:\\Project\\App Development\\App\\App\\View\\HomePage.xaml",
-              "RelativeDocumentMoniker": "App\\View\\HomePage.xaml",
-              "ToolTip": "D:\\Project\\App Development\\App\\App\\View\\HomePage.xaml",
-              "RelativeToolTip": "App\\View\\HomePage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "DetailPage.xaml",
+              "DocumentMoniker": "D:\\Project\\App Development\\App\\App\\View\\DetailPage.xaml",
+              "RelativeDocumentMoniker": "App\\View\\DetailPage.xaml",
+              "ToolTip": "D:\\Project\\App Development\\App\\App\\View\\DetailPage.xaml",
+              "RelativeToolTip": "App\\View\\DetailPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-14T02:20:55.246Z",
+              "WhenOpened": "2024-08-15T02:27:48.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "D:\\Project\\App Development\\App\\App\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "App\\AppShell.xaml.cs",
+              "ToolTip": "D:\\Project\\App Development\\App\\App\\AppShell.xaml.cs",
+              "RelativeToolTip": "App\\AppShell.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T02:20:44.396Z",
               "EditorCaption": ""
             }
           ]

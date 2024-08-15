@@ -12,7 +12,8 @@ namespace App.Model
         public int Id { get; set; }
         public string Name { get; set; }
         public float Rating { get; set; } = 1.9f;
-        public double Price {  get; set; } = 0;
-        public string Shop { get; set; } = "-";        
+        public string Price {  get; set; } = "-";
+        public string Shop { get; set; } = "-";
+        public string ImagePath { get; set; } = "Not Available";
     }
 }

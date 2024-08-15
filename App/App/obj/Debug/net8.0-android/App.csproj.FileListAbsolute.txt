@@ -630,15 +630,11 @@ D:\Project\App Development\App\App\obj\Debug\net8.0-android\android\src\crc64338
 D:\Project\App Development\App\App\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\ControlsAccessibilityDelegate.java
 D:\Project\App Development\App\App\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\DragAndDropGestureHandler.java
 D:\Project\App Development\App\App\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\DragAndDropGestureHandler_CustomLocalStateData.java
-D:\Project\App Development\App\App\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\FormattedStringExtensions_FontSpan.java
-D:\Project\App Development\App\App\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\FormattedStringExtensions_LetterSpacingSpan.java
-D:\Project\App Development\App\App\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\FormattedStringExtensions_LineHeightSpan.java
 D:\Project\App Development\App\App\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\FragmentContainer.java
 D:\Project\App Development\App\App\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\GenericAnimatorListener.java
 D:\Project\App Development\App\App\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\GenericGlobalLayoutListener.java
 D:\Project\App Development\App\App\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\GenericMenuClickListener.java
 D:\Project\App Development\App\App\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\GradientStrokeDrawable.java
-D:\Project\App Development\App\App\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\GradientStrokeDrawable_GradientShaderFactory.java
 D:\Project\App Development\App\App\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\InnerGestureListener.java
 D:\Project\App Development\App\App\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\InnerScaleListener.java
 D:\Project\App Development\App\App\obj\Debug\net8.0-android\android\src\crc64338477404e88479c\MauiViewPager.java
@@ -1056,3 +1052,9 @@ D:\Project\App Development\App\App\obj\Debug\net8.0-android\resizetizer\r\drawab
 D:\Project\App Development\App\App\obj\Debug\net8.0-android\resizetizer\r\drawable\stationery.jpeg
 D:\Project\App Development\App\App\obj\Debug\net8.0-android\resizetizer\r\drawable\nintendo_switch.jpeg
 D:\Project\App Development\App\App\obj\Debug\net8.0-android\resizetizer\r\drawable\shoes.webp
+D:\Project\App Development\App\App\obj\Debug\net8.0-android\_CompileBindingJava.FileList.txt
+D:\Project\App Development\App\App\obj\Debug\net8.0-android\mauiimage.outputs
+D:\Project\App Development\App\App\obj\Debug\net8.0-android\App.sourcelink.json
+D:\Project\App Development\App\App\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\FragmentManagerExtensions_CallBacks.java
+D:\Project\App Development\App\App\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiMaterialButton_MauiResizableDrawable.java
+D:\Project\App Development\App\App\obj\Debug\net8.0-android\_CompileJava.FileList.txt

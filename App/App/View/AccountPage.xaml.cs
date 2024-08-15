@@ -9,14 +9,20 @@ public partial class AccountPage : ContentPage
 		InitializeComponent();
 	}
 
-    private void LogOut_Button(object sender, EventArgs e)
+    private async void LogOut_Button(object sender, EventArgs e)
     {
-		Shell.Current.GoToAsync($"//{nameof(LoginPage)}");
+        string action = await DisplayActionSheet("Log Out", "OK", "Cancel", "Are you want to Log Out?");
+        switch (action){
+            case "OK":
+                await Shell.Current.GoToAsync($"//{nameof(LoginPage)}");
+                break;
+            case "Cancel":
+            break;
+        }
     }
 
     private async void ChangePassword_Button(object sender, EventArgs e)
     {
         await Shell.Current.GoToAsync("//AccountPage/ChangePasswordPage");
-        //Debug.WriteLine(Shell.Current.CurrentState?.Location.OriginalString);
     }
 }
